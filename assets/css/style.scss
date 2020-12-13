@@ -1,24 +1,24 @@
 @font-face {
     font-family: "Gilroy-Bold";
-    src: url("/assets/fonts/Gilroy-Bold.eot");
-    src: url("/assets/fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
-      url("/assets/fonts/Gilroy-Bold.otf") format("opentype"),
-      url("/assets/fonts/Gilroy-Bold.svg") format("svg"),
-      url("/assets/fonts/Gilroy-Bold.ttf") format("truetype"),
-      url("/assets/fonts/Gilroy-Bold.woff") format("woff"),
-      url("/assets/fonts/Gilroy-Bold.woff2") format("woff2");
+    src: url("asset/fonts/Gilroy-Bold.eot");
+    src: url("asset/fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+      url("asset/fonts/Gilroy-Bold.otf") format("opentype"),
+      url("asset/fonts/Gilroy-Bold.svg") format("svg"),
+      url("asset/fonts/Gilroy-Bold.ttf") format("truetype"),
+      url("asset/fonts/Gilroy-Bold.woff") format("woff"),
+      url("asset/fonts/Gilroy-Bold.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Gilroy";
-    src: url("/assets/fonts/Gilroy-Regular.eot");
-    src: url("/assets/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
-      url("/assets/fonts/Gilroy-Regular.otf") format("opentype"),
-      url("/assets/fonts/Gilroy-Regular.svg") format("svg"),
-      url("/assets/fonts/Gilroy-Regular.ttf") format("truetype"),
-      url("/assets/fonts/Gilroy-Regular.woff") format("woff"),
-      url("/assets/fonts/Gilroy-Regular.woff2") format("woff2");
+    src: url("asset/fonts/Gilroy-Regular.eot");
+    src: url("asset/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+      url("asset/fonts/Gilroy-Regular.otf") format("opentype"),
+      url("asset/fonts/Gilroy-Regular.svg") format("svg"),
+      url("asset/fonts/Gilroy-Regular.ttf") format("truetype"),
+      url("asset/fonts/Gilroy-Regular.woff") format("woff"),
+      url("asset/fonts/Gilroy-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
@@ -47,7 +47,7 @@ header{
         top: -20%;
         left: 57%;
         z-index: -1;
-        background: url(/assets/images/M.svg) 0 0 no-repeat;
+        background: url(asset/images/M.svg) 0 0 no-repeat;
         opacity: .3;
     }
 }
@@ -501,7 +501,7 @@ header{
     }
 }
 .about-us{
-    background-image: url("/assets/images/about us/background.svg");
+    background-image: url("asset/images/about us/background.svg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     position: relative;
@@ -513,7 +513,7 @@ header{
     //     top: -20%;
     //     left: 57%;
     //     z-index: 0;
-    //     background: url("/assets/images/about us/background.svg") 0 0 no-repeat;
+    //     background: url("asset/images/about us/background.svg") 0 0 no-repeat;
     // }
     &::before{
         content: "";
@@ -522,7 +522,7 @@ header{
         height: 129%;
         top: -20%;
         left: 66%;
-        background: url("/assets/images/about us/M\ for\ about\ us.svg") 0 0 no-repeat;
+        background: url("asset/images/about us/M\ for\ about\ us.svg") 0 0 no-repeat;
     }
     .yellow-bg{
         background-color: #E8E029;
@@ -585,7 +585,7 @@ header{
     }
 }
 .comments{
-    background-image: url("/assets/images/comments/bg_gradient.svg");
+    background-image: url("asset/images/comments/bg_gradient.svg");
     overflow: hidden;
     .main,.m2,.m3{
         background-color: white;
@@ -594,7 +594,7 @@ header{
         z-index: 2;
     }
     .main{
-        background-image: url("/assets/images/comments/quote.svg");
+        background-image: url("asset/images/comments/quote.svg");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: 18px;
