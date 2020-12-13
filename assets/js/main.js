@@ -1,0 +1,16 @@
+// $(document).ready(function(){
+//     if($(window).scrollTop()>15){
+//         $(".fixed-top").css("background-color","white");
+//     }
+//     else{
+//         $(".fixed-top").css("background-color","unset");
+//     }
+//     $(window).scroll(function(){
+//         if($(window).scrollTop()>15){
+//             $(".fixed-top").css("background-color","white");
+//         }
+//         else{
+//             $(".fixed-top").css("background-color","unset");
+//         }
+//     })
+// });
