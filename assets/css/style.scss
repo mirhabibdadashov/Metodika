@@ -1,24 +1,24 @@
 @font-face {
     font-family: "Gilroy-Bold";
-    src: url("asset/fonts/Gilroy-Bold.eot");
-    src: url("asset/fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
-      url("asset/fonts/Gilroy-Bold.otf") format("opentype"),
-      url("asset/fonts/Gilroy-Bold.svg") format("svg"),
-      url("asset/fonts/Gilroy-Bold.ttf") format("truetype"),
-      url("asset/fonts/Gilroy-Bold.woff") format("woff"),
-      url("asset/fonts/Gilroy-Bold.woff2") format("woff2");
+    src: url("assets/fonts/Gilroy-Bold.eot");
+    src: url("assets/fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+      url("assets/fonts/Gilroy-Bold.otf") format("opentype"),
+      url("assets/fonts/Gilroy-Bold.svg") format("svg"),
+      url("assets/fonts/Gilroy-Bold.ttf") format("truetype"),
+      url("assets/fonts/Gilroy-Bold.woff") format("woff"),
+      url("assets/fonts/Gilroy-Bold.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Gilroy";
-    src: url("asset/fonts/Gilroy-Regular.eot");
-    src: url("asset/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
-      url("asset/fonts/Gilroy-Regular.otf") format("opentype"),
-      url("asset/fonts/Gilroy-Regular.svg") format("svg"),
-      url("asset/fonts/Gilroy-Regular.ttf") format("truetype"),
-      url("asset/fonts/Gilroy-Regular.woff") format("woff"),
-      url("asset/fonts/Gilroy-Regular.woff2") format("woff2");
+    src: url("assets/fonts/Gilroy-Regular.eot");
+    src: url("assets/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+      url("assets/fonts/Gilroy-Regular.otf") format("opentype"),
+      url("assets/fonts/Gilroy-Regular.svg") format("svg"),
+      url("assets/fonts/Gilroy-Regular.ttf") format("truetype"),
+      url("assets/fonts/Gilroy-Regular.woff") format("woff"),
+      url("assets/fonts/Gilroy-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
@@ -47,12 +47,21 @@ header{
         top: -20%;
         left: 57%;
         z-index: -1;
-        background: url(asset/images/M.svg) 0 0 no-repeat;
+        background: url(assets/images/M.svg) 0 0 no-repeat;
         opacity: .3;
     }
 }
+.mt-2{
+    margin-top: 2px!important;
+}
+.mr-3{
+    margin-right: 3px!important;
+}
 .mt-4{
     margin-top: 4px!important;
+}
+.mt-6{
+    margin-top: 6px;
 }
 .mt-8{
     margin-top: 8px;
@@ -60,8 +69,18 @@ header{
 .ml-10{
     margin-left: 10px;
 }
-.mt-10{
+.mt-10,.my-10{
     margin-top: 10px;
+}
+.mb-10,.my-10{
+    margin-bottom: 10px;
+}
+.mx-10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mt-14{
+    margin-top: 14px;
 }
 .ml-15{
     margin-left: 15px;
@@ -69,11 +88,26 @@ header{
 .mt-15{
     margin-top: 15px;
 }
+.ml-18{
+    margin-left: 18px;
+}
+.mt-18{
+    margin-top: 18px;
+}
 .mt-20{
     margin-top: 20px;
 }
 .ml-20{
     margin-left: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-21{
+    margin-top: 21px;
 }
 .ml-23{
     margin-left: 23px;
@@ -92,6 +126,9 @@ header{
 }
 .mt-32{
     margin-top: 32px;
+}
+.ml-34{
+    margin-left: 34px;
 }
 .ml-35{
     margin-left: 35px;
@@ -119,6 +156,9 @@ header{
 }
 .mt-78{
     margin-top: 78px;
+}
+.mt-80{
+    margin-top: 80px;
 }
 .mt-84{
     margin-top: 84px;
@@ -153,6 +193,9 @@ header{
 .mt-235{
     margin-top: 235px;
 }
+.mt-240{
+    margin-top: 240px;
+}
 .pt-2{
     padding-top: 2px!important;
 }
@@ -179,15 +222,36 @@ header{
 .pr-9{
     padding-right: 9px;
 }
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.py-11{
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
 .py-13{
     padding-top: 13px;
     padding-bottom: 13px;
+}
+.pl-14{
+    padding-left: 14px;
+}
+.py-14{
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 .pt-15{
     padding-top: 15px;
 }
 .px-15{
     padding-left: 15px;
+    padding-right: 15px;
+}
+.pr-15{
     padding-right: 15px;
 }
 .pb-16{
@@ -214,9 +278,24 @@ header{
 .pl-20{
     padding-left: 20px;
 }
+.p-20{
+    padding: 20px;
+}
+.pt-21{
+    padding-top: 21px;
+}
+.pb-22{
+    padding-bottom: 22px;
+}
 .px-22{
     padding-left: 22px;
     padding-right: 22px;
+}
+.pl-23{
+    padding-left: 23px!important;
+}
+.pl-24{
+    padding-left: 24px;
 }
 .px-30{
     padding-left: 30px;
@@ -345,17 +424,36 @@ header{
 .w585{
     width:585px;
 }
+.mw932{
+    max-width: 932px;
+}
 .wfull{
     width: 100vw;
 }
 .w100pc{
     width: 100%;
 }
+.w14{
+    width: 14px;
+}
+.h0{
+    height: 0;
+}
+.h14{
+    height: 14px;
+}
 .h20{
     height: 20px;
 }
+.h45{
+    height: 45px;
+    overflow: hidden;
+}
 .h96{
     height: 96px;
+}
+.h135{
+    height: 135px;
 }
 .h240{
     height: 240px;
@@ -372,14 +470,23 @@ header{
 .fs-10{
     font-size:10px;
 }
+.fs-12{
+    font-size: 12px;
+}
 .fs-16{
     font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
 }
 .fs-19{
     font-size: 19px;
 }
 .fs-20{
     font-size: 20px;
+}
+.fs-21{
+    font-size: 21px;
 }
 .fs-28{
     font-size: 28px;
@@ -389,6 +496,9 @@ header{
 }
 .fs-32{
     font-size: 32px;
+}
+.fs-40{
+    font-size: 40px;
 }
 .fs-42{
     font-size: 42px;
@@ -426,6 +536,9 @@ header{
 .op3{
     opacity: .3;
 }
+.overhid{
+    overflow: hidden;
+}
 .white{
     color: white;
 }
@@ -459,6 +572,9 @@ header{
 }
 .blue-primary{
     color: #2B80C1;
+}
+.blue-primary-bg{
+    background-color: #2B80C1;
 }
 .cat-images{
     height: 160px;
@@ -501,7 +617,7 @@ header{
     }
 }
 .about-us{
-    background-image: url("asset/images/about us/background.svg");
+    background-image: url("assets/images/about us/background.svg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     position: relative;
@@ -513,7 +629,7 @@ header{
     //     top: -20%;
     //     left: 57%;
     //     z-index: 0;
-    //     background: url("asset/images/about us/background.svg") 0 0 no-repeat;
+    //     background: url("assets/images/about us/background.svg") 0 0 no-repeat;
     // }
     &::before{
         content: "";
@@ -522,7 +638,7 @@ header{
         height: 129%;
         top: -20%;
         left: 66%;
-        background: url("asset/images/about us/M\ for\ about\ us.svg") 0 0 no-repeat;
+        background: url("assets/images/about us/M\ for\ about\ us.svg") 0 0 no-repeat;
     }
     .yellow-bg{
         background-color: #E8E029;
@@ -585,7 +701,7 @@ header{
     }
 }
 .comments{
-    background-image: url("asset/images/comments/bg_gradient.svg");
+    background-image: url("assets/images/comments/bg_gradient.svg");
     overflow: hidden;
     .main,.m2,.m3{
         background-color: white;
@@ -594,7 +710,7 @@ header{
         z-index: 2;
     }
     .main{
-        background-image: url("asset/images/comments/quote.svg");
+        background-image: url("assets/images/comments/quote.svg");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: 18px;
@@ -705,11 +821,26 @@ footer{
 .underline{
     text-decoration: underline;
 }
+.bw0{
+    border-width: 0;
+}
+.bw05{
+    border-width: .5px;
+}
 .bor05{
     border: 0.5px solid #8692A6;
 }
 .bor-rad4{
     border-radius: 4px;
+}
+.bor-rad5{
+    border-radius: 5px;
+}
+.bor-rad10{
+    border-radius: 10px;
+}
+.bor-rad20{
+    border-radius: 20px;
 }
 .bor-rad55{
     border-radius: 55px;
@@ -732,6 +863,9 @@ footer{
 }
 .bg-green{
     background-color: rgba(6,167,125,.12);
+}
+.bg1{
+    background-color: #FAFCFF;
 }
 .green{
     color: #06A77D;
@@ -796,4 +930,28 @@ footer{
     img{
         margin-top: -60px;
     }
+}
+.box-shadow{
+    box-shadow: 0px 8px 28px rgba(39, 45, 78, 0.06);
+}
+.shadow1{
+    box-shadow: 0px 3px 11px rgba(39, 45, 78, 0.07);
+}
+.gray{
+    color: #8692A6;
+}
+.active{
+    background-color: #E6F0F8;
+}
+.search{
+    cursor: pointer;
+}
+.backnone{
+    background: none;
+}
+.vert-top{
+    vertical-align: top;
+}
+.text-upper{
+    text-transform: uppercase;
 }
